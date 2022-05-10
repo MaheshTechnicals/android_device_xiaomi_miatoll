@@ -5,9 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/streak_miatoll.mk
+    $(LOCAL_DIR)/aosp_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    streak_miatoll-user \
-    streak_miatoll-userdebug \
-    streak_miatoll-eng
+    aosp_miatoll-userdebug \

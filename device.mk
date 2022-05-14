@@ -21,7 +21,10 @@ PRODUCT_COPY_FILES += \
 # NFC
 PRODUCT_PACKAGES += \
     NfcNci \
-    Tag
+    Tag \
+    android.hardware.nfc@1.2.vendor \
+    vendor.nxp.hardware.nfc@2.0-service \
+    vendor.nxp.nxpnfclegacy@1.0
 
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service

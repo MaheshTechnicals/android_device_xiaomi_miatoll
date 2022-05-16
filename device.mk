@@ -24,14 +24,16 @@ PRODUCT_PACKAGES += \
     Tag \
     android.hardware.nfc@1.2.vendor \
     vendor.nxp.hardware.nfc@2.0-service \
-    vendor.nxp.nxpnfclegacy@1.0
+    vendor.nxp.nxpnfclegacy@1.0 \
+    android.hardware.secure_element@1.2
 
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
     $(LOCAL_PATH)/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf
+#    $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf
+
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.nfc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_joyeuse/android.hardware.nfc.xml \

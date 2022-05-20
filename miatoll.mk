@@ -7,9 +7,8 @@
 # Inherit from miatoll  device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common ArrowOS stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-$(call inherit-product-if-exists, vendor/lawnchair/lawnchair.mk)
+# Inherit some common zephyrus stuff
+
 
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true

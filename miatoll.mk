@@ -7,6 +7,9 @@
 # Inherit from miatoll  device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
+#Gapps Build
+WITH_GMS := true
+
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 

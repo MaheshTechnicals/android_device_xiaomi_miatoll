@@ -7,9 +7,6 @@
 # Inherit from miatoll  device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common zephyrus stuff
-
-
 # Quick Tap
 TARGET_SUPPORTS_QUICK_TAP := true
 
@@ -24,9 +21,6 @@ PRODUCT_MODEL := Miatoll
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-# Maintainer
-DEVICE_MAINTAINER := MaheshTechnicals
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="raven-user 12 SP2A.220505.002 8353555 release-keys"

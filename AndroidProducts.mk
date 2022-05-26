@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_miatoll.mk
+    $(LOCAL_DIR)/voltage_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_miatoll-userdebug \
+    voltage_miatoll-userdebug \
